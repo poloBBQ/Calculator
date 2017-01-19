@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace CalculatorCommon
 {
+    /// <summary>
+    /// Represents a request that can be sent to the server to retrieve journal entries.
+    /// </summary>
     public class JournalRequest
     {
         public String Id;
     }
 
+    /// <summary>
+    /// Represents a set of journal entries.
+    /// </summary>
     public class JournalResponse
     {
         public List<JournalEntry> Operations { get; set; } = new List<JournalEntry>();
@@ -36,6 +42,9 @@ namespace CalculatorCommon
         }
     }
 
+    /// <summary>
+    /// Single entry for the journal, contains all the information of the calculation.
+    /// </summary>
     public class JournalEntry
     {
         /// <summary>

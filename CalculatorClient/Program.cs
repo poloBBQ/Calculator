@@ -88,7 +88,7 @@ namespace CalculatorClient
                                 Exit = true;
                             }
 
-                            if (!Exit && userInput.ToLower().StartsWith("journal"))
+                            if (!Exit && userInput.ToLower().StartsWith("journal")) // User wants to see the journal
                             {
                                 //Remove non-numbers from the input
                                 String inputWithoutPrefix = userInput.Replace("journal", "").Replace(" ", "");
@@ -186,6 +186,7 @@ namespace CalculatorClient
                 IEnumerable<Type> types = Assembly.GetAssembly(typeof(OperationResult)).GetTypes()
                     .Where(p => p.IsClass && !p.IsAbstract && p.IsSubclassOf(typeof(OperationResult)));
 
+                // Find the OperationResult subclass that represents the received result by trying to parse it
                 foreach (Type t in types)
                 {
                     OperationResult operationResult = (OperationResult)Activator.CreateInstance(t);
@@ -227,7 +228,8 @@ namespace CalculatorClient
                 .SelectMany(s => s.GetTypes())
                 .Where(p => typeof(IOperation).IsAssignableFrom(p) && !p.IsInterface);
 
-            foreach(Type t in types)
+            // Find the IOperation class that represents the input by trying to parse the input
+            foreach (Type t in types)
             {
                 IOperation operation = (IOperation)Activator.CreateInstance(t);
                 if (operation.TryParse(input))

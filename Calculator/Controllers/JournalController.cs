@@ -8,7 +8,7 @@ using System.Web.Http;
 namespace Calculator.Controllers
 {
     /// <summary>
-    /// For queries to the journal
+    /// Controller for queries to the journal
     /// </summary>
     public class JournalController : ApiController
     {

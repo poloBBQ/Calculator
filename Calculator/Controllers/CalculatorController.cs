@@ -10,7 +10,7 @@ using System.Web.Http;
 namespace Calculator.Controllers
 {
     /// <summary>
-    /// To submit operations
+    /// Controller to submit operations to the server
     /// </summary>
     public class CalculatorController : ApiController
     {

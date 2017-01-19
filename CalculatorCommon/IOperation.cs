@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace CalculatorCommon
 {
+    /// <summary>
+    /// Interface that represents an arithmetic operation.
+    /// A common interface simplifies usage and facilitates serialization.
+    /// </summary>
     public interface IOperation
     {
         /// <summary>
