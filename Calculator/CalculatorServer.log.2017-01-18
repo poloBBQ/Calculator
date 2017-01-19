@@ -1,0 +1,22 @@
+2017-01-18 20:28:50,622 [6] ERROR Calculator.Controllers.OperationController - sum requested
+2017-01-18 20:28:53,319 [6] ERROR Calculator.Controllers.OperationController - sum requested
+2017-01-18 20:30:32,652 [7] ERROR Calculator.Controllers.OperationController - sum requested
+2017-01-18 20:31:26,812 [6] ERROR Calculator.Controllers.OperationController - sum requested
+2017-01-18 20:34:32,734 [8] ERROR Calculator.Controllers.OperationController - sum requested
+2017-01-18 20:35:20,164 [6] ERROR Calculator.Controllers.OperationController - sum requested
+2017-01-18 20:36:13,023 [6] ERROR Calculator.Controllers.OperationController - sum requested
+2017-01-18 20:36:35,216 [6] ERROR Calculator.Controllers.OperationController - sum requested
+2017-01-18 20:46:16,689 [6] ERROR Calculator.Controllers.CalculatorController - sum requested
+2017-01-18 21:55:10,096 [7] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 22:15:33,068 [6] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 22:15:56,048 [9] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 22:16:00,136 [10] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 22:16:06,782 [8] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 22:18:44,048 [7] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 22:18:52,620 [6] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 22:23:17,709 [13] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 23:23:11,562 [6] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 23:24:21,924 [5] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 23:27:34,328 [7] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 23:28:10,102 [6] INFO  Calculator.Controllers.CalculatorController - Add operation requested
+2017-01-18 23:28:14,022 [7] INFO  Calculator.Controllers.CalculatorController - Add operation requested
