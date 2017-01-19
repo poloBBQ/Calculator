@@ -16,7 +16,7 @@ Calculator web server, client and unit tests.
 
 # Deployment
 - **Client**: Build the release configuration and distribute the following files: CalculatorClient.exe, CalculatorClient.exe.config, CalculatorCommon.dll, log4net.dll, NDesk.Options.dll and Newtonsoft.Json.dll.
-- **Server**: From the Visual Studio solution, right click the Calculator project and select "Publish". Under profile, create a Custom Profile and select the "File System" Publish Method. Click on the Browse button and, under the "Local IIS" section select an available IIS Express Site, it may be neccessary to create one from IIS Express.
+- **Server**: From the Visual Studio solution, right click the Calculator project and select "Publish". Under profile, create a Custom Profile and select the "File System" Publish Method. Click on the Browse button and, under the "Local IIS" section select an available IIS Express Site, it may be neccessary to create one from IIS Express. Other deployment methods are also possible.
 
 # Testing
 - From the Visual Studio solution open the Test Explorer, build the Calculator.Tests projects and Run All tests.
